@@ -96,3 +96,75 @@ Here’s an example section for your **System Repository README file** to list a
 
 - **System Name**: [Bogus](https://github.com/bchavez/Bogus)
   - A library for generating fake data such as usernames, email addresses, and other random values for testing purposes.
+
+Here’s an example section for the **System Architecture Style** to add to your **System Repository README file**:
+
+## System Architecture Style
+
+**Architecture Style**: Frontend + Monolithic Backend
+
+### Description
+
+- The system is designed with a separate frontend application and a monolithic backend.
+- The **frontend** handles the user interface and interactions, while the **backend** manages business logic, real-time communication, and data persistence in a centralized codebase.
+- This architecture is chosen for simplicity, ease of development, and maintainability, making it ideal for the project's initial scope.
+
+---
+
+### Updated C4 Model Level 1: Context Diagram
+
+#### **Actors and Components**
+
+1. **Actors**:
+
+   - **User (Primary Actor)**: The end-user interacting with the system via the frontend.
+
+2. **System Components**:
+
+   - **Frontend**: Handles user interaction, displays data, and communicates with the backend via API or WebSocket.
+   - **Backend**: A monolithic system that handles:
+     - Business logic.
+     - Data processing and persistence.
+     - Real-time communication via SignalR or WebSockets.
+
+3. **External Systems**:
+   - **Bogus Library**: Generates test data for development and prototyping.
+
+---
+
+#### **Relationships**
+
+1. **User → Frontend**:
+
+   - The user interacts with the **Frontend** via a browser or mobile app (HTTP/HTTPS).
+
+2. **Frontend → Backend**:
+
+   - The frontend sends requests to the **Backend** for data (REST API or WebSocket).
+   - The backend responds with processed data or real-time updates.
+
+3. **Backend → Bogus Library**:
+   - The **Backend** uses the **Bogus Library** to generate mock data for testing.
+
+---
+
+### Diagram Description
+
+Here’s the simplified textual diagram outline:
+
+```
++---------------+          HTTPS/REST          +--------------------+
+|   User        |  <------------------------> |     Frontend       |
++---------------+                             +--------------------+
+                                                      |
+                                                      | API/WebSocket
+                                                      |
+                                              +--------------------+
+                                              |     Backend        |
+                                              +--------------------+
+                                                      |
+                                                      |
+                                            +--------------------+
+                                            |   Bogus Library    |
+                                            +--------------------+
+```
