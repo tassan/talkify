@@ -215,3 +215,40 @@ The project will follow a **Multi-Repo** strategy, with separate repositories fo
 2. **Frontend Repository**:
    - **Technology**: React
    - **Purpose**: Provides the user interface for interacting with the system, making API calls to the backend.
+
+## Branching Strategy
+
+**Chosen Approach**: Feature Branching
+
+### Description
+
+The project will follow a **Feature Branching** strategy, where:
+
+- Each feature or bug fix is developed in its own dedicated branch.
+- Branch names will follow a clear and consistent naming convention, e.g., `feature/<feature-name>` or `bugfix/<bug-name>`.
+- Changes are merged into the `main` branch through pull requests after code review and successful CI tests.
+
+This approach allows for:
+
+- Parallel development by multiple contributors.
+- Isolated testing and debugging of individual features.
+- A stable `main` branch, suitable for releases.
+
+---
+
+## Deployment Model
+
+**Chosen Approach**: Local Only
+
+### Description
+
+The system will initially be deployed and run locally on the developer's machine. This choice is made to:
+
+- Avoid hosting costs during early stages of development.
+- Focus on feature implementation and testing without deployment overhead.
+
+This means:
+
+- The backend will be hosted locally using the .NET development server.
+- The frontend will run locally using a React development server.
+- SQLite will be used as the database, hosted as a file on the local filesystem.
