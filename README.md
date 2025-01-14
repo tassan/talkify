@@ -196,3 +196,22 @@ Here’s the simplified textual diagram outline:
 - **xUnit**: For unit testing to ensure reliability through TDD practices.
 - **React Router**: For handling routing in the React application.
 - **Axios**: For making API requests from the React frontend.
+
+## Repository Strategy
+
+**Chosen Approach**: Multi-Repo
+
+### Description
+
+The project will follow a **Multi-Repo** strategy, with separate repositories for the backend and frontend components.
+
+### Repositories
+
+1. **Backend Repository**:
+
+   - **Technology**: .NET Core
+   - **Purpose**: Handles the server-side logic, APIs, real-time communication using SignalR, and data persistence with SQLite.
+
+2. **Frontend Repository**:
+   - **Technology**: React
+   - **Purpose**: Provides the user interface for interacting with the system, making API calls to the backend.
