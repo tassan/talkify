@@ -172,3 +172,27 @@ Here’s the simplified textual diagram outline:
 ### Architecture Diagram
 
 ![Architecture Digram](docs/system-architecture.png)
+
+## Tech Stack
+
+### Programming Language(s)
+
+- **C#**: For backend development.
+- **JavaScript/TypeScript**: For frontend development with React.
+
+### Frameworks
+
+- **ASP.NET Core**: For building the backend REST API and real-time communication using SignalR.
+- **React**: For building a dynamic and responsive user interface.
+
+### Database
+
+- **SQLite**: A lightweight, file-based relational database for storing user data, messages, and other persistent information.
+
+### Additional Tools and Libraries
+
+- **SignalR**: For enabling real-time messaging and communication between the frontend and backend.
+- **Entity Framework Core**: For object-relational mapping (ORM) and interacting with the SQLite database.
+- **xUnit**: For unit testing to ensure reliability through TDD practices.
+- **React Router**: For handling routing in the React application.
+- **Axios**: For making API requests from the React frontend.
