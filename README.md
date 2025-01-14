@@ -168,3 +168,7 @@ Here’s the simplified textual diagram outline:
                                             |   Bogus Library    |
                                             +--------------------+
 ```
+
+### Architecture Diagram
+
+![Architecture Digram](docs/system-architecture.png)
