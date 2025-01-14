@@ -85,3 +85,14 @@ This project is inspired by the work shared in the [Optivem Journal](https://jou
 
 1. The user gains access to the application.
 2. A session is initiated and maintained until logout or timeout.
+
+Here’s an example section for your **System Repository README file** to list and describe the chosen **External Systems**:
+
+---
+
+## External Systems
+
+### 1. External Library (Optional)
+
+- **System Name**: [Bogus](https://github.com/bchavez/Bogus)
+  - A library for generating fake data such as usernames, email addresses, and other random values for testing purposes.
