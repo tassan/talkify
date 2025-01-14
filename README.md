@@ -111,7 +111,7 @@ Here’s an example section for the **System Architecture Style** to add to your
 
 ---
 
-### Updated C4 Model Level 1: Context Diagram
+### C4 Model Level 1: Context Diagram
 
 #### **Actors and Components**
 
