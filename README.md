@@ -268,3 +268,30 @@ The system uses a **Multi-Repository** approach, with separate repositories for 
 - **Repository Name**: `talkify-backend`
 - **Description**: Contains the .NET-based monolithic backend application for Talkify, responsible for business logic, real-time messaging, and database interactions.
 - **Link**: [Talkify Backend Repository](https://github.com/tassan/talkify-backend)
+
+Here’s how to update the **Project Boards** section in your README file to reflect the use of **Kanban**:
+
+---
+
+## Project Boards
+
+### System Project Board
+
+The project uses a **Kanban-style Project Board** to manage user stories, bugs, and tasks across the system. This board provides a clear, real-time view of the development process and ensures smooth workflow management.
+
+- **Project Board Name**: Talkify System
+- **Link**: [Talkify System Project Board](https://github.com/users/tassan/projects/1/views/1)
+
+### Kanban Structure
+
+- **Columns**:
+
+  1. **Backlog**: Ideas, user stories, and bugs awaiting prioritization or refinement.
+  2. **Ready**: Tasks that are ready to be worked on.
+  3. **In progress**: Tasks currently being developed or worked on.
+  4. **In review**: Tasks that are completed and awaiting review or testing.
+  5. **Done**: Tasks that have been completed, reviewed, and deployed (if applicable).
+
+- **Workflow**:
+  - Tasks move through the columns as they progress from planning to completion.
+  - Each ticket includes labels, assignees, and checklists to break down frontend and backend work.
