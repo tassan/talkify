@@ -6,7 +6,7 @@
 
 ## License
 
-This project is licensed under the **MIT License**.
+This project is licensed under the [MIT License](https://github.com/tassan/talkify-backend/blob/main/LICENSE)
 
 ## Background Context
 
@@ -252,3 +252,19 @@ This means:
 - The backend will be hosted locally using the .NET development server.
 - The frontend will run locally using a React development server.
 - SQLite will be used as the database, hosted as a file on the local filesystem.
+
+## Repositories
+
+The system uses a **Multi-Repository** approach, with separate repositories for the frontend and backend components. Below are the repositories created for the project:
+
+### 1. Frontend Repository
+
+- **Repository Name**: `talkify-frontend`
+- **Description**: Contains the React-based frontend application for Talkify, responsible for user interaction and communication with the backend.
+- **Link**: [Talkify Frontend Repository](https://github.com/tassan/talkify-frontend)
+
+### 2. Backend Repository
+
+- **Repository Name**: `talkify-backend`
+- **Description**: Contains the .NET-based monolithic backend application for Talkify, responsible for business logic, real-time messaging, and database interactions.
+- **Link**: [Talkify Backend Repository](https://github.com/tassan/talkify-backend)
